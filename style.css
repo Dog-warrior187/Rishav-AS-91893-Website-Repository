@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    gap: 20px;
+}
+
+.logobox {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.title h1, .title h3 {
+    margin: 0;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+/* NAVBAR */
+.navbar {
+    border-bottom: 2px solid black;
+    padding: 15px;
+}
+
+.navlinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.navlinks li {
+    border: 2px solid black;
+    padding: 8px 15px;
+}
+
+/* MAIN */
+.main {
+    padding: 40px;
+    border-bottom: 2px solid black;
+}
+
+/* HOME PAGE */
+.homelayout {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.homebox {
+    width: 30%;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.textbox {
+    height: 300px;
+}
+
+/* DEPARTMENTS PAGE */
+.pagetitle {
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.deptgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.deptbtn {
+    border: 2px solid black;
+    padding: 40px;
+    text-align: center;
+}
+
+/* DEPARTMENT TEMPLATE */
+.profilegrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.profile {
+    height: 120px;
+    border: 2px solid black;
+}
+
+/* CONTACT PAGE */
+.contactbox {
+    width: 60%;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.footer {
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+.footer a {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
